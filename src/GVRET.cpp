@@ -37,7 +37,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // #include <can_common.h>
 // #include <due_can.h>
 #include <FlexCAN_T4.h>
-#include <MCP2515.h>
+// #include <MCP2515.h>
 #include "SerialConsole.h"
 
 /*
@@ -61,7 +61,7 @@ DigitalCANToggleSettings digToggleSettings;
 SdFat sd;
 
 //Only used by CANDue V2.2 boards
-MCP2515 SWCAN(CANDUE22_SW_CS, CANDUE22_SW_INT);
+// MCP2515 SWCAN(CANDUE22_SW_CS, CANDUE22_SW_INT);
 
 SerialConsole console;
 
